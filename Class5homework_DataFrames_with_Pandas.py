@@ -96,3 +96,6 @@ bmi_corr_children = insurance_df.corr().at['bmi', 'children']
 print(f"\nThe correlation between charges and age is : {charges_corr_age:.6f}")
 print(f"The correlation between bmi and children is : {bmi_corr_children:.6f}")
 
+# Output: 
+# The correlation between charges and age is : 0.299008. Yes, it shows +correlation 
+# The correlation between bmi and children is : 0.012759. No, it shows very low correlation
